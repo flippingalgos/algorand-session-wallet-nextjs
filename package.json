@@ -1,0 +1,52 @@
+{
+  "name": "algorand-session-wallet-nextjs",
+  "version": "1.0.0",
+  "description": "Session wallet to allow persisted wallet connection across multiple wallets",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "@json-rpc-tools/utils": "^1.7.6",
+    "@perawallet/connect": "^0.2.3",
+    "@randlabs/myalgo-connect": "^1.2.0",
+    "@walletconnect/client": "1.8.0",
+    "@walletconnect/qrcode-modal": "1.8.0",
+    "algorand-walletconnect-qrcode-modal": "1.7.4",
+    "algosdk": "^1.19.0",
+    "buffer": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "prettier": "^2.3.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flippingalgos/algorand-session-wallet-nextjs-example.git"
+  },
+  "keywords": [
+    "Algorand",
+    "Crypto",
+    "Wallet"
+  ],
+  "author": "flippingalgos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flippingalgos/algorand-session-wallet-nextjs-example/issues"
+  },
+  "homepage": "https://github.com/flippingalgos/algorand-session-wallet-nextjs-example#readme"
+}
