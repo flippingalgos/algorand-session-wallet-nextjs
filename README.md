@@ -6,11 +6,11 @@ a merged blend of: https://github.com/barnjamin/algorand-session-wallet-example
 and https://github.com/matamicenclimate/algorand-session-wallet2 and some other changes along the way. 
 
 ```sh
-yarn add algorand-session-wallet
+yarn add algorand-session-wallet-nextjs
 ```
 
 ```sh
-npm -i algorand-session-wallet
+npm -i algorand-session-wallet-nextjs
 ```
 
 ```js
