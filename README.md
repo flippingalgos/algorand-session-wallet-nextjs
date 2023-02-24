@@ -1,4 +1,4 @@
-# algorand-session-wallet-nexjs
+# algorand-session-wallet-nextjs
 
 Upgraded to work on Next JS 11.x / Added Native pera-connect / Plans to intergrate defly-connect
 
