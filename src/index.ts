@@ -6,6 +6,7 @@ import { PermissionCallback, Wallet, SignedTxn } from "./wallets/wallet";
 import { Transaction, TransactionSigner } from "algosdk";
 //import MagicLink from "./wallets/magiclink";
 import PeraConnectWallet from "./wallets/peraconnect";
+import DeflyConnectWallet from "./wallets/deflyconnect";
 
 export {
   PermissionResult,
@@ -21,6 +22,7 @@ export const allowedWallets = {
   "insecure-wallet": InsecureWallet,
   //"magic-link": MagicLink,
   "pera-connect": PeraConnectWallet,
+  "defly-connect": DeflyConnectWallet,
 };
 
 const walletPreferenceKey = "wallet-preference";

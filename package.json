@@ -8,14 +8,17 @@
     "dist/**/*"
   ],
   "dependencies": {
+    "@blockshake/defly-connect": "^1.1.1",
     "@json-rpc-tools/utils": "^1.7.6",
+    "@magic-ext/algorand": "^8.4.0",
     "@perawallet/connect": "^0.2.3",
     "@randlabs/myalgo-connect": "^1.2.0",
     "@walletconnect/client": "1.8.0",
     "@walletconnect/qrcode-modal": "1.8.0",
     "algorand-walletconnect-qrcode-modal": "1.7.4",
     "algosdk": "^1.19.0",
-    "buffer": "^6.0.3"
+    "buffer": "^6.0.3",
+    "magic-sdk": "^13.4.1"
   },
   "devDependencies": {
     "@types/node": "^16.4.13",
