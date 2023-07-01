@@ -4,13 +4,15 @@ import InsecureWallet from "./wallets/insecure";
 import WC from "./wallets/walletconnect";
 import PeraConnectWallet from "./wallets/peraconnect";
 import DeflyConnectWallet from "./wallets/deflyconnect";
+import DaffiConnectWallet from "./wallets/dafficonnect";
 import { PermissionCallback, Wallet, SignedTxn } from "./wallets/wallet";
 import { Transaction, TransactionSigner } from "algosdk";
 export { PermissionResult, PermissionCallback, Wallet, SignedTxn, } from "./wallets/wallet";
 export declare const allowedWallets: {
-    "wallet-connect": typeof WC;
     "pera-connect": typeof PeraConnectWallet;
     "defly-connect": typeof DeflyConnectWallet;
+    "wallet-connect": typeof WC;
+    "daffi-signer": typeof DaffiConnectWallet;
     "algo-signer": typeof AlgoSignerWallet;
     "my-algo-connect": typeof MyAlgoConnectWallet;
     "insecure-wallet": typeof InsecureWallet;

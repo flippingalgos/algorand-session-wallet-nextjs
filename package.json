@@ -1,6 +1,6 @@
 {
-  "name": "algorand-session-wallet-nextjs",
-  "version": "1.0.0",
+  "name": "algorand-session-wallet",
+  "version": "1.7.0",
   "description": "Session wallet to allow persisted wallet connection across multiple wallets",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,17 +8,15 @@
     "dist/**/*"
   ],
   "dependencies": {
-    "@blockshake/defly-connect": "^1.1.1",
     "@json-rpc-tools/utils": "^1.7.6",
-    "@magic-ext/algorand": "^8.4.0",
     "@perawallet/connect": "^0.2.3",
     "@randlabs/myalgo-connect": "^1.2.0",
+    "@daffiwallet/connect": "^1.0.3",
     "@walletconnect/client": "1.8.0",
     "@walletconnect/qrcode-modal": "1.8.0",
     "algorand-walletconnect-qrcode-modal": "1.7.4",
     "algosdk": "^1.19.0",
-    "buffer": "^6.0.3",
-    "magic-sdk": "^13.4.1"
+    "buffer": "^6.0.3"
   },
   "devDependencies": {
     "@types/node": "^16.4.13",
@@ -39,17 +37,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flippingalgos/algorand-session-wallet-nextjs-example.git"
+    "url": "git+https://github.com/barnjamin/algorand-session-wallet.git"
   },
   "keywords": [
     "Algorand",
     "Crypto",
     "Wallet"
   ],
-  "author": "flippingalgos",
+  "author": "barnjamin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flippingalgos/algorand-session-wallet-nextjs-example/issues"
+    "url": "https://github.com/barnjamin/algorand-session-wallet/issues"
   },
-  "homepage": "https://github.com/flippingalgos/algorand-session-wallet-nextjs-example#readme"
+  "homepage": "https://github.com/barnjamin/algorand-session-wallet#readme"
 }

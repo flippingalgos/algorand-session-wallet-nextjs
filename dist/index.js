@@ -19,10 +19,12 @@ const insecure_1 = __importDefault(require("./wallets/insecure"));
 const walletconnect_1 = __importDefault(require("./wallets/walletconnect"));
 const peraconnect_1 = __importDefault(require("./wallets/peraconnect"));
 const deflyconnect_1 = __importDefault(require("./wallets/deflyconnect"));
+const dafficonnect_1 = __importDefault(require("./wallets/dafficonnect"));
 exports.allowedWallets = {
-    "wallet-connect": walletconnect_1.default,
     "pera-connect": peraconnect_1.default,
     "defly-connect": deflyconnect_1.default,
+    "wallet-connect": walletconnect_1.default,
+    "daffi-signer": dafficonnect_1.default,
     "algo-signer": algosigner_1.default,
     "my-algo-connect": myalgoconnect_1.default,
     "insecure-wallet": insecure_1.default,
